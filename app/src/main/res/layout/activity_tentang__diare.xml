@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f6f6f6"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_height="48dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:lineSpacingExtra="3.7sp"
+                android:text="Pengertian Diare"
+                android:textColor="#537780"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/btn_rounded2"
+            android:orientation="vertical">
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15.4dp"
+                android:layout_marginRight="15.4dp"
+                android:lineSpacingExtra="2sp"
+                android:text="      Diare merupakan sebuah kondisi ketika pengidapnya melakukan buang air besar (BAB) lebih sering dari biasanya. Di samping itu, feses pengidap diare lebih encer dari biasanya. Hal yang perlu diwaspadai, meski diare bisa berlangsung singkat, tapi bisa pula berlangsung selama beberapa hari. Bahkan, dalam beberapa kasus bisa terjadi hingga berminggu-minggu. \n"
+                android:textColor="#537780"
+                android:textSize="19sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="2sp"
+            android:text="Jenis - Jenis Diare"
+            android:textColor="#537780"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:id="@+id/cardview"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:layout_height="470dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360dp"
+                android:layout_height="400dp"
+                android:layout_marginStart="15.4dp"
+                android:layout_marginLeft="15.4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="0dp"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="@drawable/btn_rounded"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Disentri"
+                        android:textColor="#537780"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Pengertian"
+                        android:textColor="#537780"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:lineSpacingExtra="1sp"
+                        android:text="Disentri adalah peradangan usus yang bisa menyebabkan diare disertai darah atau lendir. Disentri terbagi jadi dua jenis, yaitu Disentri basiler dan Disentri amuba. \n"
+                        android:textColor="#537780"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Faktor Resiko"
+                        android:textColor="#537780"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:gravity=""
+                        android:lineSpacingExtra="1sp"
+                        android:text="Beberapa faktor risiko disentri, yaitu :
+\n1. Kebersihan diri kurang
+\n2. Benda yang terkontaminasi bakteri
+\n3. Makanan dan air yang terkontaminasi
+\n     kotoran manusia"
+                        android:textColor="#537780"
+                        android:textSize="19sp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Penyebab"
+                        android:textColor="#537780"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:lineSpacingExtra="1sp"
+                        android:text="Disentri basiler disebabkan oleh infeksi bakteri shigella (paling umum ditemui).Sedangkan disentri amuba, disebabkan oleh infeksi parasit bersel satu, yaitu Entamoeba histolytica.
+\n "
+                        android:textColor="#537780"
+                        android:textSize="19sp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360dp"
+                android:layout_height="400dp"
+                android:layout_marginRight="16.8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                app:cardCornerRadius="9dp"
+                android:layout_marginEnd="16.8dp"
+                android:layout_marginStart="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="@drawable/btn_rounded"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Kolera"
+                        android:textColor="#537780"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Pengertian"
+                        android:textColor="#537780"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:lineSpacingExtra="1sp"
+                        android:text="Kolera adalah penyakit diare akut yang disebabkan oleh infeksi bakteri Vibrio cholera serogrup 01 atau 0139 dalam usus halus. \n"
+                        android:textColor="#537780"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Faktor Resiko"
+                        android:textColor="#537780"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:gravity=""
+                        android:lineSpacingExtra="1sp"
+                        android:text="Faktor risiko terjangkitnya kolera, antara lain sanitasi yang buruk dan kelompok ekonomi sosial menengah ke bawah. \n"
+                        android:textColor="#537780"
+                        android:textSize="19sp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="0dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Penyebab"
+                        android:textColor="#537780"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:lineSpacingExtra="1sp"
+                        android:text="Seseorang dapat terinfeksi dengan mengonsumsi minuman atau makanan yang terkontaminasi oleh bakteri kolera. Pada kondisi epidemik, sumber kontaminasi adalah feses dari orang yang terinfeksi lalu terbawa ke makanan dan minuman sehingga dapat menyebar ke orang banyak.  \n "
+                        android:textColor="#537780"
+                        android:textSize="19sp" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360dp"
+                android:layout_height="400dp"
+                android:layout_marginRight="16.8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                app:cardCornerRadius="9dp"
+                android:layout_marginEnd="16.8dp"
+                android:layout_marginStart="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_rounded"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Giardiasis"
+                        android:textColor="#537780"
+                        android:textSize="22sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Pengertian"
+                        android:textColor="#537780"
+                        android:textSize="20sp" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:lineSpacingExtra="1sp"
+                        android:text="Giardiasis adalah infeksi umum pada usus yang disebabkan oleh giardia lamblia, yang merupakan penyebab utama diare. \n"
+                        android:textColor="#537780"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Faktor Resiko"
+                        android:textColor="#537780"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:gravity=""
+                        android:lineSpacingExtra="1sp"
+                        android:text="Beberapa faktor yang meningkatkan risiko seseorang terkena penyakit giardiasis, yaitu :
+ \n1. Usia
+ \n2. Hubungan intim
+ \n3. Tempat tinggal
+ \n4. Air  \n"
+                        android:textColor="#537780"
+                        android:textSize="19sp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15.4dp"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="0dp"
+                        android:lineSpacingExtra="2.8sp"
+                        android:text="Penyebab"
+                        android:textColor="#537780"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15.4dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15.4dp"
+                        android:lineSpacingExtra="2.6sp"
+                        android:text="Gejala giardiasis biasanya munjul 7 hingga 14 hari setelah seseorang terinfeksi. Beberapa tanda dan gejala giardiasis, meliputi: diare, sendawa, tidak nafsu makan, demam ringan. \n"
+                        android:textColor="#537780"
+                        android:textSize="19sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

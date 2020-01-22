@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">CGastro </string>
+    <string name="barang">barang:</string>
+    <string name="barang_cok">barang cok:</string>
+    <string name="etusia">brapa usia lo</string>
+    <string name="et_namaorg">isi nama lo</string>
+    <string name="rb_female">Perempuan</string>
+    <string name="rb_male">Laki-Laki</string>
+    <string name="btn_next1">next</string>
+    <string name="tv1">Gejala Diare</string>
+    <string name="tv2">Jenis Feses :</string>
+    <string name="btn_hasil">Hasil Diagnosa</string>
+    <string name="rb_feses1">Terdapat darah atau lendir</string>
+    <string name="rb_feses2">Encer berwarna putih seperti cucian beras</string>
+    <string name="rb_feses3">Serperti Bubur (tidak mengandung darah)</string>
+    <string name="tv3">Gejala Dehidrasi</string>
+    <string name="tv4">Kesadaran :</string>
+    <string name="rb_kesadaran1">Letargis atau tidak sadar</string>
+    <string name="rb_kesadaran2">Rewel atau Gelisah</string>
+    <string name="tv5">Kelopak Mata</string>
+    <string name="rb_kelopak1">Terlihat Cekung</string>
+    <string name="rb_kelopak2">Biasa Saja</string>
+    <string name="tv6">Kemampuan Minum :</string>
+    <string name="rb_minum1">Tidak bisa atau tidak mau minum</string>
+    <string name="rb_minum2">Minum dengan lahap (Merasa Haus)</string>
+    <string name="tv7">Turgor Kulit atau Cubitan Kulit</string>
+    <string name="rb_turgor1"><![CDATA[Cubitan kulit perut kembali sangat lambat (>2detik)]]></string>
+    <string name="rb_turgor2"><![CDATA[Cubitan kulit kembali lambat ( < 2 detik )]]></string>
+
+
+    //jenis diare
+    <string name="ddisentri">Disentri</string>
+    <string name="dkolera">Kolera</string>
+    <string name="dbiasa">Diare Biasa</string>
+    <string name="dgiardiasis">Giardiasis</string>
+
+    //jenis dehidrasi
+    <string name="tanpa">Tanpa Dehidrasi</string>
+    <string name="sedang">Dehidrasi Sedang</string>
+    <string name="berat">Dehidrasi Berat</string>
+    <string name="cb_feses4">Terdapat Lemak</string>
+    <string name="tv8">HASIL DIAGNOSA</string>
+    <string name="tv9">NAMA LO :</string>
+    <string name="tv10">UMUR LO :</string>
+    <string name="tv11">JENIS KELAMIN :</string>
+    <string name="tv12">JENIS DIARE :</string>
+    <string name="text_penangananA">
+    <b> 1.	Memberikan cairan tambahan</b>
+        \n     -	Pemberian ASI lebih sering dan lebih lama pada setiap kali pemberian
+        \n     -	Pemberian Oralit (dapat dibeli di apotek terdekat) atau air matang sebagai tambahan
+        <b> \n    Aturan pemberian Oralit :</b>
+        \n     -	kurang dari 2 tahun = 50 sampai 100 ml setiap kali BAB
+         \n    -	lebih dari 2 tahun = 100 sampai 200 ml setiap kali BAB
+         \n    -	Meminumkan sedikit-sedikit tetapi sering dari mangkuk/cangkir/gelas
+         \n    -	Jika anak muntah tunggu 10 menit. Kemudian lanjutkan lagi dengan lebih lambat
+         \n    -	Lanjutkan pemberian cairan tambahan sampai diare berhenti
+          \n
+       <b>\n    2.	Memberi tablet Zinc (dapat dibeli di apotek terdekat)</b>
+        \n    Pemberian tablet Zinc hanya untuk anak dengan umur lebih dari 2 bulan selama 10 hari dengan dosis :
+        \n       -	Umur kurang dari 6 bulan : 1⁄2 tablet (10 mg) per hari
+        \n       -	Umur lebih dari 6 bulan : 1 tablet (20 mg) per hari
+        \n    Pemberian tablet Zinc bisa dengan ditumbuk dan dilarutkan dalam satu sendok makan
+    <b> \n   \n    3.	Lanjutkan pemberian makan/ASI</b>
+        \n       -	Tambahkan 1-2 sendok the minyak sayur setiap porsi makan
+        \n       -	Pemberian makanan kaya kalium (seperti pisang, air kelapa muda)
+         \n      -	Pemberian makan lebih sering dari biasanya dengan porsi kecil (setiap 3-4 jam)
+</string>
+    <string name="text_penangananB">
+     \n       1.	Pemberian Oralit (dapat dibeli di apotek terdekat) dengan periode 3 jam
+     \n   Aturan pemberian Oralit :
+     \n   -	Jumlah oralit yang diperlukan = 75 ml/kg berat badan
+     \n   -	Jika berat badan tidak diketahui :
+     \n   o	kurang dari 4 bulan = 200 – 400 ml
+     \n   o	4 – 12 bulan = 400 – 700 ml
+     \n   o	12 – 24 bulan = 700 – 900 ml
+     \n   o	2 – 5 tahun = 900 – 1400 ml
+     \n   -	Meminumkan sedikit-sedikit tetapi sering dari mangkuk/cangkir/gelas
+     \n   -	Jika anak muntah tunggu 10 menit. Kemudian lanjutkan lagi dengan lebih lambat
+      \n  -	Lanjutkan pemberian ASI selama anak mau jika anak masih minum ASI
+      \n  -	Lanjutkan pemberian minum air matang jika anak sudah tidak minum ASI
+      \n  Setelah 3 jam :
+      \n  -	Tinjau kembali derajat dehidrasi pada anak
+     \n   -	Jika anak masih menunjukkan tanda dehidrasi seperti rewel/gelisah, minum dengan lahap/terlihat haus ulangi pemberian oralit
+     \n   -	Jika anak sudah tidak menunjukkan tanda dehidrasi pemberian oralit bisa dilakukan setiap anak selesai BAB dengan aturan sebagai berikut :
+     \n   o	kurang dari 2 tahun = 50 sampai 100 ml setiap kali BAB
+     \n   o	lebih dari 2 tahun = 100 sampai 200 ml setiap kali BAB
+    \n \n   2.	Memberi tablet Zinc (dapat dibeli di apotek terdekat)
+     \n   Pemberian tablet Zinc hanya untuk anak dengan umur lebih dari 2 bulan selama 10 hari dengan dosis :
+     \n   -	Umur kurang dari 6 bulan : 1⁄2 tablet (10 mg) per hari
+     \n   -	Umur lebih dari  6 bulan : 1 tablet (20 mg) per hari
+     \n   Pemberian tablet Zinc bisa dengan ditumbuk dan dilarutkan dalam satu sendok makan
+   \n  \n   3.	Selalu stock ketersediaan oralit
+   \n  \n   4.	Lanjutkan pemberian makan jika anak mau
+     \n   -	Tambahkan 1-2 sendok the minyak sayur setiap porsi makan
+     \n   -	Pemberian makanan kaya kalium (seperti pisang, air kelapa muda)
+     \n   -	Pemberian makan lebih sering dari biasanya dengan porsi kecil (setiap 3-4 jam)
+
+</string>
+    <string name="text_penangananC">
+     \n   Untuk diare dengan dehidrasi berat sangat dianjurkan untuk merujuk ke puskesmas atau rumah sakit terdekat.
+    </string>
+
+
+    <!--   STRING FRONT-END BALI-->
+    <string name="cek_diagnosis">CEK DIAGNOSIS</string>
+    <string name="riwayat_diagnosa">RIWAYAT DIAGNOSA</string>
+    <string name="tentang_diare">TENTANG DIARE</string>
+    <string name="tentang_c_gastro">TENTANG C - GASTRO</string>
+    <string name="texttanya">Halo, Apa Ada Yang Bisa Kami Bantu ?</string>
+    <string name="gambarmenu">gambarmenu</string>
+
+
+    <!--    STRING TENTANG CGASTRO-->
+    <string name="tvCgastro1">C - GASTRO</string>
+    <string name="tvCgastro2">C-Gastro merupakan aplikasi mobile yang digunakan untuk mendiagnosis pasien dari   gejala-gejala diare yang dikeluhkan oleh pasien. Sistem ini mendukung pengambilan keputusan   berbasis aturan (rule base), aturan-aturan yang disimpan merupakan basis pengetahuan   yang didapatkan dari pakar.</string>
+    <string name="tvCgastro3">Safira Yuniar PB . M Adzka SFR \n Moh Dwi Chaidier R . Galindra Setya K</string>
+    <string name="tvCgastro4">C-Gastro.v.17.12.01</string>
+    <string name="tvcek1">Silahkan isi data berikut sebelum mengisi checklist gejala</string>
+    <string name="hintnama">Isi nama anda disini</string>
+    <string name="hintusia">Usia</string>
+    <string name="tvcek2">Pilih gejala diare sesuai yang anda rasakan!</string>
+    <string name="tvcek3">Feses :</string>
+    <string name="tvcek4">Terdapat darah/lendir</string>
+    <string name="tvcek5">Cair/encer berwarna putih seperti cucian beras</string>
+    <string name="tvcek6">Seperti bubur (tidak mengandung darah)</string>
+    <string name="tvcek7">Terdapat Lemak</string>
+    <string name="tvcek8">Kesadaran :</string>
+    <string name="tvcek9">Letargis/tidak sadar</string>
+    <string name="tvcek10">Rewel/gelisah</string>
+    <string name="tvcek11">Kelopak Mata :</string>
+    <string name="tvcek12">Terlihat Cekung</string>
+    <string name="tvcek13">Biasa Saja</string>
+    <string name="tvcek14">Kemampuan Minum :</string>
+    <string name="tvcek15">Tidak bisa minum/malas minum</string>
+    <string name="tvcek16">Minum dengan lahap/merasa haus</string>
+    <string name="tvcek17">Turgor Kulit (Cubitan Kulit):</string>
+    <string name="tvcek18">Cubitan kulit kembali sangat lambat (lebih dari 2 detik)</string>
+    <string name="tvcek19">Cubitan kulit kembali lambat (kurang dari 2 detik)</string>
+    <string name="btn_next">Next</string>
+    <string name="gambarhasil">gambarhasil</string>
+    <string name="tvhasilnama">NAMA             :</string>
+    <string name="usia">USIA :</string>
+    <string name="jenis_kelamin">JENIS KELAMIN :</string>
+    <string name="tipe_dehidrasi">TIPE DEHIDRASI :</string>
+    <string name="penanganan">PENANGANAN :</string>
+    <string name="title_activity_main_menu">Main_menu</string>
+    <string name="login">Login</string>
+</resources>
